@@ -11,11 +11,11 @@ public class Boom {
         System.out.println("How many times the Nuclear waste is removed from the core?");
         int b = obj.nextInt();
         System.out.println("What is the total weight of the waste(Kg) produced every 1 week?");
-        float c = obj.nextInt();
+        float c = obj.nextFloat();
         System.out.println("Is Electric Motor being replaced every 18 days?(y/n)");
         char f = obj.next().charAt(0);
         System.out.println("What is the core average temperature (celsius)of the Nuclear Reactor?");
-        double d = obj.nextInt();
+        double d = obj.nextDouble();
         double e = (d + 273.15);
         System.out.println("The total number of employees is " + a + ".");
         System.out.println("The name of the supervisor is " + name + ".");
